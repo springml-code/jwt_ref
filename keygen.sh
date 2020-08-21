@@ -6,7 +6,6 @@ then
     exit 1
 fi
 
-keyname=""
 # Pass in name of key
 ssh-keygen -t rsa -b 4096 -P "" -f $1
 
