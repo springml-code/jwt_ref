@@ -1,3 +1,7 @@
+# JWT Creation and Verification
+
+This example shows how to create RS512 keys and use them to create and verify JWT tokens.
+
 First install `pyjwt` via:
 
 ```shell
@@ -20,4 +24,4 @@ Then run:
 python pyjwt_example.py <private keyname> <public keyname>
 ```
 
-It will print the JWT, the original message, and the decoded message.
+It will print the JWT, the original message, and the decoded message. You can and should also verify your JWT token on a site like [https://jwt.io/](https://jwt.io/).
